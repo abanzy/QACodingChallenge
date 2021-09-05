@@ -1,0 +1,31 @@
+{
+  "name": "QACodingChallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress": "./node_modules/.bin/cypress run",
+    "allure:report": "allure generate allure-results --clean",
+    "allure:clear": "rm -r allure-results/ allure-report || true",
+    "allure:open": "allure open allure-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abanzy/QACodingChallenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abanzy/QACodingChallenge/issues"
+  },
+  "homepage": "https://github.com/abanzy/QACodingChallenge#readme",
+  "devDependencies": {
+    "cypress": "^8.3.1",
+    "typescript": "~4.0.2",
+    "@shelex/cypress-allure-plugin": "^1.6.1",
+    "allure-commandline": "^2.13.0"
+  }
+}

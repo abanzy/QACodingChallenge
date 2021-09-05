@@ -1,0 +1,23 @@
+{
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "chromeWebSecurity": false,
+    "integrationFolder": "cypress/src/specs",
+    "screenshotsFolder": "cypress/output/screenshots",
+    "videosFolder": "cypress/output/videos",
+    "videoCompression":20,
+    "baseUrl": "https://devmalta.bitso.com/login",
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "pageLoadTimeout":30000,
+    "requestTimeout":30000,
+    "responseTimeout":30000,
+    "defaultCommandTimeout":30000,
+    "watchForFileChanges": false,
+    "env": {
+        "allure":true,
+        "mexemail":"jpwrfdtpp@trythe.net",
+        "mexpassword":"DiYS2nAdgcs5SMq@",
+        "argemail":"uwpuww@trythe.net",
+        "argpassword":"JcSp95PiK2DkpLK@"
+    }
+  }
